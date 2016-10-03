@@ -6,5 +6,6 @@ As of now the sole example of this approach is a simple radius query determining
 The simple radius query is a great example of the underlying novel approach to the storing and querying of spatial data which seems to be faster than existing approaches. 
 
 
-# The Fundamentals of the Polar Approach to Spatial Data:
+
+# The Fundamentals of the Polar Approach to Spatial Data
 
