@@ -58,36 +58,49 @@ Points returned: 498
 # ToDo:
 The following highlights the end goal in terms of the desired scope of different efficient query types on different spatial data types we hope to support. It also highlights which combinations are supported and have existing implementations already on this repository. Obviously, the end goal is to build a general library on this repo that can be used to conduct all manner of spatial query types on all manner of spatial data types. Furthermore, we hope to support different options for creating, update and deleting spatial data using this paradigm.
 
+
 - [x] Radius query on points
 - [ ] Radius query on lines
 - [ ] Radius query on 2D shapes
 - [ ] Radius query on 3D shapes
+
 ----------------------------------
+
 - [ ] Contains query on points
 - [ ] Contains query on lines
 - [ ] Contains query on 2D shapes
 - [ ] Contains query on 3D shapes
+
 ----------------------------------
+
 - [ ] Disjoint query on points
 - [ ] Disjoint query on lines
 - [ ] Disjoint query on 2D shapes
 - [ ] Disjoint query on 3D shapes
+
 ----------------------------------
+
 - [ ] Intersects query on points
 - [ ] Intersects query on lines
 - [ ] Intersects query on 2D shapes
 - [ ] Intersects query on 3D shapes
+
 ----------------------------------
+
 - [ ] Touches query on points
 - [ ] Touches query on lines
 - [ ] Touches query on 2D shapes
 - [ ] Touches query on 3D shapes
+
 ----------------------------------
+
 - [ ] Crosses query on points
 - [ ] Crosses query on lines
 - [ ] Crosses query on 2D shapes
 - [ ] Crosses query on 3D shapes
+
 ----------------------------------
+
 - [ ] Overlaps query on points
 - [ ] Overlaps query on lines
 - [ ] Overlaps query on 2D shapes
