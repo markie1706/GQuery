@@ -66,9 +66,15 @@ _________________________________________________________________________
               |    Points   |   Lines   |   2D Shapes   |   3D Shapes
               
 Radius        |      X      |           |               |
+
 Contains      |             |           |               |
+
 Disjoint      |             |           |               |
+
 Intersects    |             |           |               |
+
 Touches       |             |           |               |
+
 Crosses       |             |           |               |
+
 Overlaps      |             |           |               |
