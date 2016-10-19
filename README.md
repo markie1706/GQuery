@@ -40,3 +40,16 @@ Query radius: 25km
 Points to query: 500,000
 Average execution time: 0.005924 seconds
 Points returned: 498
+
+# ToDo
+The following highlights the end goal in terms of the desired scope of different efficient query types on different spatial data types we hope to support. It also highlights which combinations are supported and have existing implementations already on this repository. Obviously, the end goal is to build a general library on this repo that can be used to conduct all manner of spatial query types on all manner of spatial data types. Furthermore, we hope to support different options for creating, update and deleting spatial data using this paradigm.
+
+_________________________________________________________________________
+              |    Points   |   Lines   |   2D Shapes   |   3D Shapes
+Radius        |      X      |           |               |
+Contains      |             |           |               |
+Disjoint      |             |           |               |
+Intersects    |             |           |               |
+Touches       |             |           |               |
+Crosses       |             |           |               |
+Overlaps      |             |           |               |
