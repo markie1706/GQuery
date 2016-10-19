@@ -17,15 +17,11 @@ Querying points in space:
 
   If spatial points are stored as described above, efficient queries can be done on them by first filtering the integer R values and then the double T values. For example, consider a radius query- one in which we are given some latitude and longitude value and asked to return the stored points within some input distance from the input point. Assuming we have a list of spatial points stored in polar coordinate form around some anchor A, the following steps should perform the desired radius query:
 
-1] Convert the input point into polar coordinate with an R and T value, based on the given anchor point A.
-
-2] Calculate the maximum and minimum R and T values that can be used to filter stored points and return only those within some given input distance of the input point.
-
-3] First, filter the stored points by radius keeping those with a radius >= minR value && radius <= maxR value as calculated in step 3.
-
-4] Filter these already filtered points based on the max and min T values calculated in step 3.
-    
-5] Return the remaining points after these two filters are done.
+1 Convert the input point into polar coordinate with an R and T value, based on the given anchor point A.
+2 Calculate the maximum and minimum R and T values that can be used to filter stored points and return only those within some given input distance of the input point.
+3 First, filter the stored points by radius keeping those with a radius >= minR value && radius <= maxR value as calculated in step 3.
+4 Filter these already filtered points based on the max and min T values calculated in step 3.  
+5 Return the remaining points after these two filters are done.
     
 # Specs
 As of right now the only working example of an algorithm based on this paradigm on this repository is a radius query on point spatial data. The information below shows the speeds at which this query can run for given input parameters, as well as some additional information on the queries. All these computations were run on my desktop Mac. 
