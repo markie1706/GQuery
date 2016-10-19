@@ -38,6 +38,7 @@ Average execution time: 0.00087 seconds
 
 Points returned: 45
 
+----------------------------------------
 
 Query radius: 25km
 
@@ -47,6 +48,7 @@ Average execution time: 0.00296 seconds
 
 Points returned: 272
 
+----------------------------------------
 
 Query radius: 25km 
 
