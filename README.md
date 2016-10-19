@@ -19,3 +19,24 @@ Querying points in space:
     
     1) Convert the input point into polar coordinate with an R and T value, based on the given anchor point A.
     2) Calculate the maximum and minimum R and T values that can be used to folter stored points and return only those within some given input distance of the input point.
+    3) First, filter the stored points by radius keeping those with a radius >= minR value && radius <= maxR value as calculated in step 3.
+    4) Filter these already filtered points based on the max and min T values calculated in step 3.
+    5) Return the remaining points after these two filters are done.
+    
+# Specs
+As of right now the only working example of an algorithm based on this paradigm on this repository is a radius query on point spatial data. The information below shows the speeds at which this query can run for given input parameters, as well as some additional information on the queries. All these computations were run on my desktop Mac. 
+
+Query Radius: 25km
+Points to query: 50,000
+Average execution time: 0.00087 seconds
+Points returned: 45
+
+Query radius: 25km
+Points to query: 250,000
+Average execution time: 0.00296 seconds
+Points returned: 272
+
+Query radius: 25km 
+Points to query: 500,000
+Average execution time: 0.005924 seconds
+Points returned: 498
