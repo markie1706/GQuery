@@ -65,16 +65,16 @@ The following highlights the end goal in terms of the desired scope of different
 _________________________________________________________________________
               |    Points   |   Lines   |   2D Shapes   |   3D Shapes
               
-Radius        |      X      |           |               |
+Radius--------|      X      |           |               |
 
-Contains      |             |           |               |
+Contains------|             |           |               |
 
-Disjoint      |             |           |               |
+Disjoint------|             |           |               |
 
-Intersects    |             |           |               |
+Intersects----|             |           |               |
 
-Touches       |             |           |               |
+Touches-------|             |           |               |
 
-Crosses       |             |           |               |
+Crosses-------|             |           |               |
 
-Overlaps      |             |           |               |
+Overlaps------|             |           |               |
