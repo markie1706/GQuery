@@ -62,32 +62,32 @@ The following highlights the end goal in terms of the desired scope of different
 - [ ] Radius query on lines
 - [ ] Radius query on 2D shapes
 - [ ] Radius query on 3D shapes
-
+----------------------------------
 - [ ] Contains query on points
 - [ ] Contains query on lines
 - [ ] Contains query on 2D shapes
 - [ ] Contains query on 3D shapes
-
+----------------------------------
 - [ ] Disjoint query on points
 - [ ] Disjoint query on lines
 - [ ] Disjoint query on 2D shapes
 - [ ] Disjoint query on 3D shapes
-
+----------------------------------
 - [ ] Intersects query on points
 - [ ] Intersects query on lines
 - [ ] Intersects query on 2D shapes
 - [ ] Intersects query on 3D shapes
-
+----------------------------------
 - [ ] Touches query on points
 - [ ] Touches query on lines
 - [ ] Touches query on 2D shapes
 - [ ] Touches query on 3D shapes
-
+----------------------------------
 - [ ] Crosses query on points
 - [ ] Crosses query on lines
 - [ ] Crosses query on 2D shapes
 - [ ] Crosses query on 3D shapes
-
+----------------------------------
 - [ ] Overlaps query on points
 - [ ] Overlaps query on lines
 - [ ] Overlaps query on 2D shapes
