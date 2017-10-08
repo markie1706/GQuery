@@ -20,6 +20,7 @@
 #include <array>
 #include <sstream>
 #include <iomanip>
+#include <chrono>
 using namespace std;
 using  ns = chrono::nanoseconds;
 using get_time = chrono::steady_clock ;
@@ -50,7 +51,7 @@ double distanceEarth(double lat1d, double lon1d, double lat2d, double lon2d) {
 	return 2.0 * earthRadiusKm * asin(sqrt(u * u + cos(lat1r) * cos(lat2r) * v * v));
 }
 
-inline double round( double val )
+inline double round( double val ) throw ()
 {
 	if( val < 0 ) return ceil(val - 0.5);
 	return floor(val + 0.5);
